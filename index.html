@@ -1,6 +1,14 @@
 <html>
-	<head>
+	<head>		
+	<style>
+		#map {
+			width:100%;
+			height:400px;
+			background-color: grey;
+			}
+		</style>
 		<link href="main.css" rel="stylesheet" type="text/css"
+
 	</head>
 	<body>
 		<h1>Hot Beans<h1>
@@ -13,5 +21,17 @@
 			<li><a href="trainee.html">Trainees</a></li>
 		</ul>
 		<p>This is the homepage of Hot Beans. Please use our links to find what infomation you need.<p>
+		<div id="map"></div>
+		<script>
+		function initMap() {
+			var uluru = {lat: -25.344, lng: 131.036};
+			var map = new google.maps.Map(
+				document.getElementById('map'), {zoom: 4, center: uluru});
+			var marker = new google.maps.Marker({[postition: uluru, map: map});
+			
+			</script>
+			<script async defer 
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqeLO-Qq-i2U1gW3BPyYaqqxQacU4qg4M&callback=initMap">
+			</script>
 	</body>
 </html>
