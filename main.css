@@ -1,4 +1,5 @@
 body{background-color: #2B2D42; color:#EDF2F4} h1{text-align: left-side;text-decoration: underline; color: black}
  h2{text-align: lef-side;text-decoration: underline; color: black} ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: black;}
-li {display: inline; float: left; border-right: 1px solid grey;} li:last-child {border-right: none; } li a{display: block; color: #EDF2F4; text-align: center; padding: 14px 16px; text-decoration: none;} 
-li a:hover{background-color: #111} .active{background-color: grey;} 
+li {display: inline; float: left; border-right: 1px solid #2B2D42;} li:last-child {border-right: none; } li a{display: block; color: #EDF2F4; text-align: center; padding: 14px 16px; text-decoration: none;} 
+li a:hover{background-color: #111} .active{background-color: grey;} .center {display: block;
+margin-left: auto; margin-right: auto; width:50%;}
