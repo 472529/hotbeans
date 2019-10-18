@@ -33,13 +33,17 @@
 		<style>
 		.mySlides {display:none;}
 		</style>
+		<style>
+		.img{max-width: 500px;
+			width: 10%;}
+		</style>
 		<link href="main.css" rel="stylesheet" type="text/css"
 	</head>
 	<body>
 		<a href="/" title"Return to homepage" id="logo">
-			<img src="logo.png" alt="logo">
+			<img src="logo.png" alt="logo" class="img">
 		</a>
-		<h2>Welcome</h2>
+		<h2>Hot Beans</h2>
 		<ul>
 			<li><a href="index.html"> Home</a></li>
 			<li><a href="course.html"> Jobs</a>
@@ -103,5 +107,7 @@
 			dots[slideIndex-1].className += " w3-red";
 			}
 		</script>
+		<br>
+		<input class="button" id="go" type="button" value="Print this Page" onclick="window.print();">
 	</body>
 </html>
