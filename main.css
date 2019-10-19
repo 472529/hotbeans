@@ -1,16 +1,32 @@
-body{background-color: #2B2D42; color:#EDF2F4} h1{text-align: left-side;text-decoration: underline; color: black}
- h2{text-align: lef-side;text-decoration: underline; color: black}
+body{
+	background-color: #2B2D42;
+	color:#EDF2F4
+	}
+	
+h1 {
+	text-align: left-side;
+	text-decoration: underline;
+	color: black
+	}
+ 
+h2 {
+	text-align: lef-side;
+	text-decoration: underline;
+	color: black
+	}
+	
 .button {
-		background-color: black;
-		border-style: none;
-		color: white;
-		padding: 5px 5px;
-		text-align: center;
-		text-decoration: none;
-		display: inline-block;
-		cursor: pointer;
-		float: left;
+	background-color: black;
+	border-style: none;
+	color: white;
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	float: left;
 		}
+		
 .navbar {
   overflow: hidden;
   background-color: #333;
