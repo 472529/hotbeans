@@ -25,11 +25,6 @@ input[type=submit]:hover {
   background-color: #333 ;
 }
 
-div {
-  border-radius: 5px;
-  background-color: grey;
-  padding: 20px;
-}
 
 textarea {
   width: 100%;
@@ -48,13 +43,22 @@ textarea {
 	<body>
 		<h1>Hot Beans<h1>
 		<h2>Application Form</h2>
-		<ul>
-			<li><a href="index.html"> Home</a></li>
-			<li><a href="course.html"> Jobs</a>
-			<li><a href="location.html">Locations & Info</a></li>
-			<li><a href="rules.html">Application Form</a></li>
-			<li><a href="trainee.html">Trainees</a></li>
-		</ul>
+			<div class="navbar">
+  <a href="index.html"> Home</a>
+  <a href="course.html"> Jobs</a>
+  <a href="location.html">Locations & Info</a>
+  <a href="rules.html">Application Form</a>
+  <a href="trainee.html">Trainees</a>
+  <div class="dropdown">
+    <button class="dropbtn">Policies
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.websitepolicies.com/policies/view/djgB5PvI">Accepteble Use</a>
+      <a href="https://www.websitepolicies.com/policies/view/dXiS5Cjz">Disclaimer</a>
+    </div>
+  </div> 
+</div>
+	
 		<form
 			action="https://formspree.io/mkdqnzbx"
 			method="POST">
@@ -70,7 +74,7 @@ textarea {
 			<p> Why Choose you? <p>
 			<textarea name="message" placeholder="Your message...">
 			</textarea>
-			<p></p>
+			<br>
 			<input type="submit" value="Submit">
 			</form>
 	</body>
