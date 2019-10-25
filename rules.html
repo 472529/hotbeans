@@ -79,14 +79,14 @@ textarea {
 		<form
 			action="https://formspree.io/mkdqnzbx"
 			method="POST">
-			<p>First Name<p>
-			<input name="firstname" type="text" placeholder="Your name...">
-			<p>Second name<p>
-			<input name="secondname" type="text" placeholder="Your last name...">
-			<p>Email<p>
-			<input name="email" type="text" placeholder="Email...">
-			<p>Why Choose you?<p>
-			<textarea name="message" placeholder="Your message...">
+			<label for="firstname">First Name:</label>
+			<input name="firstname" id="firstname" type="text" placeholder="Your name...">
+			<label for="secondname">Second Name:</label>
+			<input name="secondname" id="secondname" type="text" placeholder="Your last name...">
+			<label for="email">Email:</label>
+			<input name="email" id="email" type="text" placeholder="Email...">
+			<label for="message">Why Choose You?:</label>
+			<textarea name="message" id="message" placeholder="Your message...">
 			</textarea>
 			<br>
 			<input type="submit" value="Submit">
